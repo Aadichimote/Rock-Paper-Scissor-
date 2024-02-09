@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.page{
+    background-color: aqua;
+}
+h1{
+    height:100px;
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 30px;
+}
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+.choice{
+    margin: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid transparent;
+    border-radius: 50%;
+    transition: border 0.3s ease;
+}
+.choice:hover{
+    border:7px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.your_score {
+    padding:50px;
+    font-size: 3rem;
+    gap: 100px;
+}
+.your_score :first-child{
+    padding-left: 25px;
+}
+.comp_score {
+    padding: 50px ; 
+    font-size: 3rem;
+    gap: 100px;
+}
+.comp_score :first-child{
+    padding-left: 30px;
+}
+.winner{
+    margin-top: -50px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resetgame{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.resetgame button{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(11, 12, 12);
+    color: antiquewhite;
+    font-size: 20px;
+
+
+}
